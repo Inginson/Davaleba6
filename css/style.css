@@ -79,7 +79,6 @@
 
 .sectionbox1 {
   width: 100%;
-  border: 2px solid red;
   padding: 116px 139px;
 }
 
@@ -87,7 +86,6 @@
   display: inline-flex;
   width: 100%;
   height: 100%;
-  border: solid red;
   font-size: 18px;
   color: #133B3A;
   align-items: center;
@@ -107,8 +105,6 @@
   display: flex;
   width: 100%;
   justify-content: space-around;
-  border: 2px solid black;
-
 }
 
 .secdiv1 {
@@ -133,7 +129,7 @@
   padding: 38px 93px 30px 18px;
   text-align: center;
 
-} 
+}
 
 
 .secdiv2 {
@@ -143,7 +139,6 @@
   justify-content: center;
   width: 330px;
   background-color: white;
-  border: 2px solid red;
 }
 
 .secdiv2 i {
@@ -166,7 +161,6 @@
 
 .sectionbox2 {
   width: 100%;
-  border: 2px solid green;
   padding: 116px 80px;
 }
 
@@ -224,4 +218,42 @@
   cursor: pointer;
 }
 
+/* აქედან იწყება ფუტერი */
 
+
+.footer {
+  width: 100%;
+  background-color: #758BFD;
+
+}
+
+.footnav {
+  width: 75%;
+  display: flex;
+  /* border: 2px solid blue; */
+  flex-shrink: 1;
+  cursor: pointer;
+  align-items: center;
+}
+
+.footnav ul {
+  height: 50%;
+  display: flex;
+  flex: 1;
+  flex-flow: row;
+  margin-left: 80%;
+  gap: 60%;
+  padding: 18px;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 14px;
+  flex-shrink: 1;
+}
+
+.footer img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 5%;
+  margin-left: 5%;
+}
