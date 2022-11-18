@@ -237,22 +237,20 @@
 }
 
 .footnav ul {
-  height: 50%;
-  display: flex;
-  flex: 1;
-  flex-flow: row;
+  display: inline-flex;
+  flex-shrink: 1;
   margin-left: 80%;
-  gap: 60%;
-  padding: 18px;
+  gap: 30%;
+  padding: 20px;
   justify-content: space-evenly;
   color: white;
   font-size: 14px;
   flex-shrink: 1;
+  white-space: nowrap;
 }
 
 .footer img {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   width: 5%;
-  margin-left: 5%; }
+  margin-left: 30px;
+}
