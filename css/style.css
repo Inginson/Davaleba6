@@ -77,14 +77,14 @@
 
 /* აქედან იწყება სექცია 1 */
 
-.section {
+.sectionbox1 {
   width: 100%;
   border: 2px solid red;
   padding: 116px 139px;
 }
 
-#topbox {
-  display: inline-block;
+.topbox {
+  display: inline-flex;
   width: 100%;
   height: 100%;
   border: solid red;
@@ -94,11 +94,11 @@
 
 }
 
-#topbox P{
-  display: inline-block;
+.topbox P {
+  display: inline-flex;
 }
 
-#topbox :last-child{
+.topbox :last-child {
   margin-left: 600px;
 }
 
@@ -123,6 +123,7 @@
   flex: 1;
   width: 706px;
   padding: 18px 18px 38px 18px;
+  cursor: pointer;
 }
 
 .secdiv1 figcaption {
@@ -131,7 +132,9 @@
   font-size: 24px;
   padding: 38px 93px 30px 18px;
   text-align: center;
-}
+
+} 
+
 
 .secdiv2 {
   display: flex;
@@ -159,3 +162,66 @@
 
 
 /* აქედან იწყება სექცია 2 */
+
+
+.sectionbox2 {
+  width: 100%;
+  border: 2px solid green;
+  padding: 116px 80px;
+}
+
+
+.section2 {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+.section2 div {
+  width: 23%;
+  height: 368px;
+  display: inline-block;
+  /* border: 2px solid black; */
+  justify-content: center;
+  margin-top: 20px;
+  background-color: white;
+  margin-left: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.section2 div figure {
+  padding: 18px;
+}
+
+.section2 div figcaption {
+  font-size: 20px;
+  padding: 20px 38px 0px 38px;
+  color: #133B3A;
+}
+
+.section2 div p {
+  margin-top: 80px;
+  margin-left: 20px;
+  color: #69A3A2;
+}
+
+.topbox2 {
+  display: inline-flex;
+  font-size: 18px;
+  color: #133B3A;
+  align-items: center;
+  margin-left: 19px;
+  font-size: 18px;
+  color: #133B3A;
+}
+
+.topbox2 p {
+  display: inline-flex;
+  cursor: pointer;
+}
+
+
